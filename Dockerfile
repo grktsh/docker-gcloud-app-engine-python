@@ -21,3 +21,5 @@ RUN set -ex \
 ENV GAE_SDK_ROOT /google-cloud-sdk/platform/google_appengine
 
 ENV PATH /google-cloud-sdk/bin:$PATH
+
+VOLUME ["/root/.config"]
