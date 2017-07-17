@@ -18,7 +18,6 @@ RUN set -ex \
     --path-update false \
     --additional-components app-engine-python
 
-ENV GAE_SDK_PATH /google-cloud-sdk/platform/google_appengine
 ENV GAE_SDK_ROOT /google-cloud-sdk/platform/google_appengine
 
 ENV PATH /google-cloud-sdk/bin:$PATH
